@@ -61,7 +61,7 @@ const chicken = (
         fat: 29,
         sugar: 1,
       }}
-      image={"/src/assets/fried-chicken.jpg"}
+      image={"/assets/fried-chicken.jpg"}
     />
     <MenuItem
       name={"6 pcs Chicken Nugget"}
@@ -73,7 +73,7 @@ const chicken = (
         fat: 25,
         sugar: 1,
       }}
-      image={"/src/assets/nuggets.jpg"}
+      image={"/assets/nuggets.jpg"}
     />
   </>
 );
@@ -90,7 +90,7 @@ const dessert = (
         fat: 12,
         sugar: 18,
       }}
-      image={"/src/assets/vanilla-icecream.jpg"}
+      image={"/assets/vanilla-icecream.jpg"}
     />
     <MenuItem
       name={"1 pc Coffee Ice Cream"}
@@ -102,7 +102,7 @@ const dessert = (
         fat: 13,
         sugar: 19,
       }}
-      image={"/src/assets/coffee-icecream.jpg"}
+      image={"/assets/coffee-icecream.jpg"}
     />
   </>
 );
@@ -110,7 +110,7 @@ const dessert = (
 function App() {
   return (
     <div className="p-5 bg-secondary bg-opacity-25">
-      <img src="/src/assets/food-logo.png" height="42px" />
+      <img src="/assets/food-logo.png" height="42px" />
       <h1 className="display-1 text-warning">Food Menu</h1>
       <div className="row">
         <div className="col-xl-6">
