@@ -61,7 +61,9 @@ const chicken = (
         fat: 29,
         sugar: 1,
       }}
-      image={"/assets/fried-chicken.jpg"}
+      image={
+        "https://menu-compulsory-zeph-goh.sigma-school-full-time-front.repl.co/fried-chicken.jpg"
+      }
     />
     <MenuItem
       name={"6 pcs Chicken Nugget"}
@@ -73,7 +75,9 @@ const chicken = (
         fat: 25,
         sugar: 1,
       }}
-      image={"/assets/nuggets.jpg"}
+      image={
+        "https://menu-compulsory-zeph-goh.sigma-school-full-time-front.repl.co/nuggets.jpg"
+      }
     />
   </>
 );
@@ -90,7 +94,9 @@ const dessert = (
         fat: 12,
         sugar: 18,
       }}
-      image={"/assets/vanilla-icecream.jpg"}
+      image={
+        "https://menu-compulsory-zeph-goh.sigma-school-full-time-front.repl.co/vanilla-icecream.jpg"
+      }
     />
     <MenuItem
       name={"1 pc Coffee Ice Cream"}
@@ -102,7 +108,9 @@ const dessert = (
         fat: 13,
         sugar: 19,
       }}
-      image={"/assets/coffee-icecream.jpg"}
+      image={
+        "https://menu-compulsory-zeph-goh.sigma-school-full-time-front.repl.co/coffee-icecream.jpg"
+      }
     />
   </>
 );
@@ -110,7 +118,10 @@ const dessert = (
 function App() {
   return (
     <div className="p-5 bg-secondary bg-opacity-25">
-      <img src="/assets/food-logo.png" height="42px" />
+      <img
+        src="https://menu-compulsory-zeph-goh.sigma-school-full-time-front.repl.co/food-logo.png"
+        height="42px"
+      />
       <h1 className="display-1 text-warning">Food Menu</h1>
       <div className="row">
         <div className="col-xl-6">
